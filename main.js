@@ -80,7 +80,11 @@ function resetearJuego () {
 
 celdas.forEach((celda, i) => {
   celda.addEventListener("click", () => {
-    if (celda.textContent !== "") return
+    if (celda.textContent !== "") {
+      return
+    } else {
+      celda.classList.add("check")
+    }
 
     if (turno === JUGADOR.X) {
       celda.textContent = JUGADOR.X

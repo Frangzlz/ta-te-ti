@@ -34,6 +34,7 @@ body {
   font-size: 2.7rem;
   border: 1px solid white;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 #botonReset {
@@ -44,6 +45,7 @@ body {
   color: white;
   font-size: 1rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .ganador-empate {
@@ -79,6 +81,7 @@ body {
   color: white;
   font-size: 2rem;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .modal-ganador-empate {
@@ -91,4 +94,8 @@ body {
 
 .no-display {
   display: none;
+}
+
+.check {
+  cursor: default;
 }
