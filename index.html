@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ta Te Ti</title>
+</head>
+<body>
+  <div class="contenedor">
+    <div>
+      <h1 class="turno-jugador">TURNO</h1>
+    </div>
+    <div class="quien-empieza">
+      <div class="modal-quien-empieza">
+        <h1>¿Quién empieza?</h1>
+        <div>
+          <button onclick="setJugador('❌')" class="jugador">❌</button>
+          <button onclick="setJugador('⚪')" class="jugador">⚪</button>
+        </div>
+      </div>
+    </div>
+    <div class="ganador-empate">
+      <div class="modal-ganador-empate">
+        <h1>El ganador es: </h1>
+        <div>
+          <button id="botonReset" onclick="resetearJuego()">Volver a Jugar</button>
+        </div>
+      </div>
+    </div>
+    <div class="tablero">
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
